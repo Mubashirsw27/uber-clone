@@ -23,10 +23,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "UberClone.com"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Hello Everyone!!! It's a Uber App Clone Built from Scratch by Mubashir Ibrahim. \nYou can contact me on my Social Media Accounts, If you want any Help.\nThanks "
   }
 }
