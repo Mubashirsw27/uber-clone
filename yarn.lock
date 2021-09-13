@@ -5263,7 +5263,7 @@
   dependencies:
     "asap" "~2.0.6"
 
-"prop-types@^15.6.0", "prop-types@^15.7.2":
+"prop-types@^15.5.9", "prop-types@^15.6.0", "prop-types@^15.7.2":
   "integrity" "sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz"
   "version" "15.7.2"
@@ -5405,6 +5405,15 @@
     "prop-types" "^15.7.2"
     "qs" "~6.9.1"
 
+"react-native-hide-show-password-input@^1.2.0":
+  "integrity" "sha512-jVYnQ5bXliTI9ayQpOvK9AsB+g7BC+Vkfarze3fBiFSBaluXYaeklxYuHNCx7eMBGgg4VlNyxlryrRqldkRlCw=="
+  "resolved" "https://registry.npmjs.org/react-native-hide-show-password-input/-/react-native-hide-show-password-input-1.2.0.tgz"
+  "version" "1.2.0"
+  dependencies:
+    "prop-types" "^15.7.2"
+    "react-native-material-textfield" "github:vishaljadav24/react-native-material-textfield"
+    "react-native-vector-icons" "^7.1.0"
+
 "react-native-maps-directions@^1.8.0":
   "integrity" "sha512-7KWfPrvPLU8VP2nEqsnrWlOuylidlRWWDdk3lqT5Nb1q87FeyzNgA7Ib7n6cZlQwH4usTRlJSnzNo/yQ3u4AZw=="
   "resolved" "https://registry.npmjs.org/react-native-maps-directions/-/react-native-maps-directions-1.8.0.tgz"
@@ -5419,6 +5428,12 @@
   "version" "0.28.0"
   dependencies:
     "@types/geojson" "^7946.0.7"
+
+"react-native-material-textfield@github:vishaljadav24/react-native-material-textfield":
+  "resolved" "git+ssh://git@github.com/vishaljadav24/react-native-material-textfield.git#e2d155446ab9057fc7bf6251492fe445d47c07c2"
+  "version" "0.16.1"
+  dependencies:
+    "prop-types" "^15.5.9"
 
 "react-native-modal-overlay@^1.3.1":
   "integrity" "sha512-K4J5IfJcNYNjoKDXWON5dyFf4W8UnNU5+rXcHq9ePRriUiTQPjHG2JaaqctA6GpGHU6CswApEOoxJyRw6rc9aw=="
@@ -5460,6 +5475,20 @@
   "integrity" "sha512-mKOfBLIBFBcs9br1rlZDvxD5+mAl8Gfr5CounwJtxI6Z82rGrMO+Kgl9EIg3RMVf3G855a85YVqHJL2f5EDRlw=="
   "resolved" "https://registry.npmjs.org/react-native-size-matters/-/react-native-size-matters-0.3.1.tgz"
   "version" "0.3.1"
+
+"react-native-vector-icons@^7.1.0":
+  "integrity" "sha512-V2a1zJ4i+kS8O4j183gIwX14St9AxxXabxwYpFBgRhvr2NDXyFcjHDEAgrOYYlt2W57e20aN1tBDU/I+wn9WtQ=="
+  "resolved" "https://registry.npmjs.org/react-native-vector-icons/-/react-native-vector-icons-7.1.0.tgz"
+  "version" "7.1.0"
+  dependencies:
+    "lodash.frompairs" "^4.0.1"
+    "lodash.isequal" "^4.5.0"
+    "lodash.isstring" "^4.0.1"
+    "lodash.omit" "^4.5.0"
+    "lodash.pick" "^4.4.0"
+    "lodash.template" "^4.5.0"
+    "prop-types" "^15.7.2"
+    "yargs" "^15.0.2"
 
 "react-native-vector-icons@^8.1.0":
   "integrity" "sha512-sHIdBB6Y0dHaot2fMXgy5J/hhCn5YuyN7SKDNFgPzL8KA1oF2/v7mgYMavnK7LIIs2dJoGnDANKf61dsU+TZlg=="
@@ -6801,7 +6830,7 @@
     "y18n" "^4.0.0"
     "yargs-parser" "^15.0.1"
 
-"yargs@^15.1.0":
+"yargs@^15.0.2", "yargs@^15.1.0":
   "integrity" "sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A=="
   "resolved" "https://registry.npmjs.org/yargs/-/yargs-15.4.1.tgz"
   "version" "15.4.1"

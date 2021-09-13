@@ -49,7 +49,7 @@ const NavigateCard = () => {
               );
               navigation.navigate("RideOptionsCard");
             }}
-            onChangeText={() => setCheckHandle(false)}
+         
           />
         </View>
         {/* <View>{!destination && checkHandle && <NavFavourites />}</View> */}
